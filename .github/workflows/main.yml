@@ -4,7 +4,7 @@ on: push
 
 jobs:
   build:
-    name: Hello world action
+    name: Hello-world-action
     runs-on: ubuntu-22.04
 
     steps:

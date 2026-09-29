@@ -4,4 +4,4 @@ COPY ./target/classes /tmp/classes
 
 WORKDIR /tmp/classes
 
-ENTRYPOINT ["java", "org.example.Main"]
+ENTRYPOINT ["java", "org.example.App"]

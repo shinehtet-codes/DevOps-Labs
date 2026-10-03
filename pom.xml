@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>seMethods</artifactId>
-    <version>0.1.0.3</version>
+    <version>0.1.0.4</version>
 
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
@@ -40,7 +40,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.3.0</version>
                 <configuration>
-                    <finalName>semApp-v0.1.0.3</finalName>
+                    <finalName>semApp-v0.1.0.4</finalName>
                     <archive>
                         <manifest>
                             <mainClass>org.example.App</mainClass>

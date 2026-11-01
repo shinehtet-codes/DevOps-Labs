@@ -40,9 +40,8 @@
             docker rm employees
             docker image rm database
         - name: CodeCov
-          uses: codecov/codecov-action@v2
+          uses: codecov/codecov-action@v5
           with:
-            token: ${{ secrets.38b60145-d907-431c-8be7-3a6d027718e0 }}
             directory: ./target/site/jacoco
             flags: Integration Tests # optional
             verbose: true # optional (default = false)

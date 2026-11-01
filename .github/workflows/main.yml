@@ -42,7 +42,7 @@
         - name: CodeCov
           uses: codecov/codecov-action@v2
           with:
-            # token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+            token: ${{ secrets.38b60145-d907-431c-8be7-3a6d027718e0 }}
             directory: ./target/site/jacoco
             flags: Integration Tests # optional
             verbose: true # optional (default = false)

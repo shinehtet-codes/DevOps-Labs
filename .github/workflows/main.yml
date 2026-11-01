@@ -17,7 +17,7 @@
             java-version: '25'
             distribution: 'temurin'
         - name: Unit Tests
-          run: mvn -Dtest=org.example.AppTest test
+          run: mvn -Dtest=org.devops.AppTest test
 
     build:
       name: Build and Start Using docker-compose

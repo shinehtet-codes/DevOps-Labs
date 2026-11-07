@@ -1,6 +1,13 @@
 
-  name: A workflow for my Hello World App
-  on: push
+name: A workflow for my Hello World App
+on:
+  push:
+    branches:
+      - master
+
+
+permissions:
+  contents: write
 
   jobs:
     UnitTests:
